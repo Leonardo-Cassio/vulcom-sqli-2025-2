@@ -1,6 +1,8 @@
 // CTF - SQL Injection no Login
 // Tecnologias: Node.js, Express, SQLite
 
+// A vulnerabilidade de SQL Injection permite que alguém insira códigos e altere a autenticação.
+
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const bodyParser = require('body-parser');
